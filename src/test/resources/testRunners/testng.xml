@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="8">
+    <listeners>
+        <listener class-name="com.jesusnut.extentreports.ExtentReportListener"/>
+        <listener class-name="com.jesusnut.listeners.MethodInterceptor"/>
+    </listeners>
+    <test  preserve-order="true" name="All Tests">
+        <classes>
+            <class name="com.jesusnut.tests.CreateAirlineTests">
+                <methods>
+                    <include name="createAirlineAndVerify_ExternalFiles"/>
+                    <include name="createAirlineAndVerify_ExternalFiles2"/>
+                    <include name="createAirlineAndVerify_Map"/>
+                    <include name="createAirlineAndVerify_POJO"/>
+                    <include name="createAirlineAndVerify_POJO2"/>
+                    <include name="createAirlineAndVerify_POJO3"/>
+                    <include name="createAirlineAndVerify_DP_POJO"/>
+                    <include name="createAirlineAndVerify_DP_POJO_POIJI"/>
+                    <include name="createAirlineAndVerify_AllScenarios"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
