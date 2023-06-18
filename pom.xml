@@ -7,7 +7,7 @@
     <groupId>com.jesusnut</groupId>
     <artifactId>RetargetCommon_Rest-Assured-FRAMEWORK_June23</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <description>A Retarget Common based Rest Assured Framework created in May 2023</description>
+    <description>A Retarget Common based Rest Assured Framework created in June 2023</description>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
